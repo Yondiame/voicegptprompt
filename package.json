@@ -1,19 +1,19 @@
 {
-  "name": "voicegptapi",
+  "name": "",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/functions/*.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
   },
-  "repository": {
-    "type": "git",
-    "url": "www.github.com/beodw/voicegptapi"
-  },
-  "author": "beodwilson",
-  "license": "ISC",
   "dependencies": {
-    "@google-cloud/text-to-speech": "^4.2.3",
-    "openai": "^3.3.0"
+    "@azure/functions": "^4.0.0",
+    "@google-cloud/text-to-speech": "^5.0.1",
+    "mongodb": "^6.3.0",
+    "openai": "^4.20.0"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.x"
   }
 }
